@@ -9,7 +9,6 @@
 <meta name="keywords" content="Cosmetic Surgery Turkey, Body Contouring Istanbul, Fat Transfer Antalya, Buttock Enhancement Turkey, Tummy Tuck Istanbul, Arm Lift Antalya, Aesthetic Surgery Turkey, Plastic Surgery for International Patients">
 <meta name="author" content="Turkey Medicals">
 
-
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -59,38 +58,48 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Organization",
       "@id": "https://healthtourismcongress.org/#organization",
       "name": "Health Tourism Congress",
       "url": "https://healthtourismcongress.org",
-      "description": "Independent publishing and industry information platform covering health tourism, aesthetic medicine, and international patient care in Turkey.",
+      "description": "Independent publishing and industry information platform focused on health tourism, aesthetic medicine, and international patient care in Turkey.",
       "foundingLocation": {
         "@type": "Place",
         "name": "Turkey"
       },
       "knowsAbout": [
-        "Health Tourism Industry",
-        "Medical Tourism Policy",
-        "International Patient Care",
+        "Health Tourism",
+        "Medical Tourism Industry",
         "Aesthetic Medicine",
-        "Healthcare Conferences"
+        "Plastic Surgery",
+        "International Patient Care"
       ],
-      "sameAs": [],
       "relatedLink": [
-        "https://turkeyhealth.net",
         "https://turkeymedicals.com",
+        "https://turkeyhealth.net",
         "https://doc-clinicfinder.com"
       ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://healthtourismcongress.org/#website",
+      "url": "https://healthtourismcongress.org/",
+      "name": "Health Tourism Congress",
+      "publisher": {
+        "@id": "https://healthtourismcongress.org/#organization"
+      }
     },
 
     {
       "@type": "WebPage",
       "@id": "https://healthtourismcongress.org/#homepage",
       "url": "https://healthtourismcongress.org/",
-      "name": "Health Tourism Congress – Medical Tourism Industry Hub",
+      "name": "Health Tourism Congress – Health Tourism Istanbul & Antalya",
       "isPartOf": {
-        "@id": "https://healthtourismcongress.org/#organization"
+        "@id": "https://healthtourismcongress.org/#website"
       },
       "about": [
         {
@@ -109,57 +118,47 @@
           "sameAs": "https://doc-clinicfinder.com"
         }
       ]
-    }
-  ]
-}
-</script>
+    },
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": "https://healthtourismcongress.org/#faq",
-  "mainEntity": [
     {
-      "@type": "Question",
-      "name": "What is HealthTourismCongress.org?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HealthTourismCongress.org is an independent medical publishing and information platform that provides industry-focused guidance on health tourism, aesthetic medicine, and international patient care in Turkey."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does HealthTourismCongress.org provide medical treatment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. HealthTourismCongress.org does not provide medical treatments or act as a healthcare provider. The platform offers educational content, industry insights, and informational resources related to medical travel and healthcare services."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which locations does HealthTourismCongress.org focus on?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The platform primarily focuses on Istanbul and Antalya, two major hubs for health tourism and internationally accredited medical facilities in Turkey."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the information suitable for international patients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The content is designed for international audiences seeking reliable, high-level information about medical tourism standards, patient care pathways, and treatment categories in Turkey."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does HealthTourismCongress.org recommend specific clinics or doctors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. HealthTourismCongress.org does not promote or endorse individual clinics or physicians. All published content is informational and intended to support independent, informed decision-making."
-      }
+      "@type": "FAQPage",
+      "@id": "https://healthtourismcongress.org/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Health Tourism Congress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Health Tourism Congress is an independent publishing platform providing industry insights, educational content, and guidance related to health tourism and aesthetic medicine in Turkey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Health Tourism Congress provide medical treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Health Tourism Congress does not provide medical services or treatments. It publishes informational and educational content related to the health tourism industry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which destinations does Health Tourism Congress cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The platform focuses primarily on Istanbul and Antalya, two of Turkey’s leading destinations for health tourism and aesthetic medicine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the information intended for international patients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Content is created for international audiences seeking reliable, high-level information about medical tourism and aesthetic procedures in Turkey."
+          }
+        }
+      ]
     }
+
   ]
 }
 </script>
