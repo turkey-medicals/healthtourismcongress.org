@@ -55,49 +55,65 @@
       @apply bg-gradient-to-r from-copper-500 to-copper-400 text-white px-8 py-4 rounded-lg font-semibold transition-transform transform hover:-translate-y-1 hover:shadow-lg inline-block;
     }
   </style>
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://healthtourismcongress.org/#organization",
-  "name": "International Health Tourism Congress",
-  "url": "https://healthtourismcongress.org",
-  "description": "An international health tourism congress and industry coordination platform focused on global medical travel, healthcare policy, and cross-border medical collaboration.",
-  "foundingLocation": {
-    "@type": "Place",
-    "name": "Turkey"
-  },
-  "knowsAbout": [
-    "Health Tourism",
-    "Medical Tourism Industry",
-    "Healthcare Conferences",
-    "Medical Travel Policy",
-    "International Healthcare Systems"
-  ],
-  "relatedTo": [
+  "@graph": [
     {
       "@type": "Organization",
-      "name": "Turkey Health Net",
-      "url": "https://turkeyhealth.net"
+      "@id": "https://healthtourismcongress.org/#organization",
+      "name": "Health Tourism Congress",
+      "url": "https://healthtourismcongress.org",
+      "description": "Independent publishing and industry information platform covering health tourism, aesthetic medicine, and international patient care in Turkey.",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Turkey"
+      },
+      "knowsAbout": [
+        "Health Tourism Industry",
+        "Medical Tourism Policy",
+        "International Patient Care",
+        "Aesthetic Medicine",
+        "Healthcare Conferences"
+      ],
+      "sameAs": [],
+      "relatedLink": [
+        "https://turkeyhealth.net",
+        "https://turkeymedicals.com",
+        "https://doc-clinicfinder.com"
+      ]
     },
+
     {
-      "@type": "Organization",
-      "name": "Turkey Medicals",
-      "url": "https://turkeymedicals.com"
-    },
-    {
-      "@type": "Organization",
-      "name": "Doc Clinic Finder",
-      "url": "https://doc-clinicfinder.com"
-    },
-    {
-      "@type": "Organization",
-      "name": "Obesity Clinic Turkey",
-      "url": "https://obesity-clinic-turkey.com"
+      "@type": "WebPage",
+      "@id": "https://healthtourismcongress.org/#homepage",
+      "url": "https://healthtourismcongress.org/",
+      "name": "Health Tourism Congress – Medical Tourism Industry Hub",
+      "isPartOf": {
+        "@id": "https://healthtourismcongress.org/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Turkey Medicals",
+          "sameAs": "https://turkeymedicals.com"
+        },
+        {
+          "@type": "Thing",
+          "name": "Turkey Health",
+          "sameAs": "https://turkeyhealth.net"
+        },
+        {
+          "@type": "Thing",
+          "name": "Doc Clinic Finder",
+          "sameAs": "https://doc-clinicfinder.com"
+        }
+      ]
     }
   ]
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
